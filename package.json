@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-base-16-ocean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base-16-ocean theme for hyperterm",
   "main": "index.js",
   "license": "MIT",
