@@ -1,0 +1,29 @@
+{
+  "name": "hyperterm-base-16-ocean",
+  "version": "1.0.0",
+  "description": "Base-16-ocean theme for hyperterm",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "bobsoppe/hyperterm-base-16-ocean",
+  "author": {
+    "name": "Bob Soppe"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "hyperterm",
+    "hyperterm-theme",
+    "ocean",
+    "base-16",
+    "base-16-ocean",
+    "base16",
+    "base16-ocean",
+    "hyperterm-base-16",
+    "hyperterm-base-16-ocean",
+    "hyperterm-base16",
+    "hyperterm-base16-ocean"
+  ]
+}
