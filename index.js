@@ -1,4 +1,3 @@
-// Syntax scheme
 const backgroundColor = '#2b303b';
 const foregroundColor = '#c0c5ce';
 const cursorColor = '#c0c5ce';
@@ -22,7 +21,6 @@ const colors = {
 	lightWhite: '#eff1f5'
 };
 
-// Config
 exports.decorateConfig = config => {
 	return Object.assign({}, config, {
 		foregroundColor,
@@ -34,18 +32,6 @@ exports.decorateConfig = config => {
 			${config.termCSS || ''}
 			::selection {
 				background: #4f5b66 !important;
-			}
-			x-screen x-row {
-				font-variant-ligatures: initial;
-			}
-			.cursor-node[focus=true]:not([hyper-blink-moving]) {
-				animation: blink 1s ease infinite;
-			}
-			@keyframes blink {
-				50% { opacity: 0 }
-			}
-			span {
-				font-weight: normal !important;
 			}
 		`,
 		css: `
